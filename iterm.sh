@@ -20,6 +20,15 @@ else
         echo "zsh autosuggestions not found - installing"
         git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
         #Find a way of inserting a line into the list of plugins
+        #Currently plugins=(git)
+        #We want to be able to add items regardless of whether it's 
+        
+        #plugins=(
+        #  plugin1
+        #  plugin2
+        #)
+
+        #or plugins=(plugin1)
         #https://stackoverflow.com/questions/18272379/bash-inserting-a-line-in-a-file-at-a-specific-location
 
 fi
