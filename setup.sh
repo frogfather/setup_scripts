@@ -10,7 +10,9 @@ LAZARUS_SCRIPT=./lazarus.sh
 
 echo "Setup script v$SCRIPT_VERSION"
 
-#Params: $1 filename $2 exit on not found
+temp="$HOME/.local"
+echo "temp is $temp"
+
 #Runs $1 inline if exists and returns 0
 #If $1 does not exist returns 1 or, if $2 is true exits the entire script
 
