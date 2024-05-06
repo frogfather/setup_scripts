@@ -13,6 +13,7 @@ if [ -d ~/.oh-my-zsh ]; then
         curl -fsSL -o ohmyzsh_install.sh  https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh
         chmod +x ./ohmyzsh_install.sh
         ./ohmyzsh_install.sh
+        rm ./ohmyzsh_install.sh
 fi
 if [ -d ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions ]; then
         echo "zsh autosuggestions is installed"
