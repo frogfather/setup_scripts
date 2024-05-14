@@ -10,8 +10,9 @@ then
   curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
   # then install it
   chmod +x ./install.sh
-  #./install.sh
+  ./install.sh
   echo export PATH=/opt/homebrew/bin:$PATH >> ~/.zshrc
+  source ~/.zshrc
   rm ./install.sh
 fi
 
